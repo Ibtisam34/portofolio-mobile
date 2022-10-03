@@ -288,8 +288,9 @@ margin: 100px;
 
 .languageBoxes {
   
-  display: flex;
-  flex-direction: row;
+  /*display: flex;
+  flex-direction: row;*/
+  float: left;
   align-items: center;
   gap: 5px;
   padding-left: 0;
