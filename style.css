@@ -290,7 +290,6 @@ margin: 100px;
   
   /*display: flex;
   flex-direction: row;*/
-  float: left;
   align-items: center;
   gap: 5px;
   padding-left: 0;
@@ -343,7 +342,7 @@ margin: 100px;
 .languageBoxes .box p {
   box-sizing: border-box;
   border: 1px solid #8993a4;
-  display: flex;
+ /* display: flex;*/
   align-items: center;
   padding: 4px 4px;
   font-family: "Inter", sans-serif;
