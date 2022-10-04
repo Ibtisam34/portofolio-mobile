@@ -818,6 +818,10 @@ flex-grow: 0;
   order: 0;
   flex-grow: 0;
  }
+
+ .form-items li {
+  list-style: none;
+ }
  .inputText {
   border: none;
   border-bottom: 1px solid #dbd8d7;
@@ -852,3 +856,49 @@ flex-grow: 0;
   flex-grow: 0;
 }
 
+.inputTextarea {
+  height: 114px;
+  width: 354px;
+  background-color: #fbf8f7;
+  border: none;
+  margin-top: 24px;
+  padding: 12px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #3C3A39;
+}
+
+.touch-button {
+  padding: 12px 12px;
+  width: 131px;
+  height: 48px;
+  border: none;
+  color: #fff;
+  margin-left: 125px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  gap: 10px;
+
+  width: 131px;
+  height: 48px;
+
+  /* Theme 3 / Primary 1 */
+  background: #FF6B00;
+  /* Inside auto layout */
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  /* identical to box height, or 141% */
+  margin-bottom: 50%;
+}
+
+.touchForm li {
+  align-self: center;
+}

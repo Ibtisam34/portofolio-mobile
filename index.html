@@ -230,7 +230,7 @@
                 to chat please get in touch.
               </h2>
             <form action="/my-handling-form-page" method="post">
-              <ul>
+              <ul class="form-items">
               <li>
                 <input type="text"  name="name"  class="inputText" placeholder="Full name"
                 required
@@ -243,5 +243,19 @@
                 type="email">  
               </li>
               <li>
-               
+                <textarea class="inputTextarea"  name="opinion"
+                id="opinion"
+                cols="50"
+                rows="10"
+                placeholder="Enter text here"
+                maxlength="500"
+                required
+                type="text">
+                </textarea>
+              </li>
+              <li>
+                <button class="touch-button">Get in Touch</button>
+              </li>  
+           </ul>
+             
            
