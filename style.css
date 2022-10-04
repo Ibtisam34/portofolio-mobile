@@ -288,8 +288,8 @@ margin: 100px;
 
 .languageBoxes {
   
-  /*display: flex;
-  flex-direction: row;*/
+  display: flex;
+  flex-direction: row;
   align-items: center;
   gap: 5px;
   padding-left: 0;
@@ -299,7 +299,7 @@ margin: 100px;
   order: 0;
   flex-grow: 0;
   list-style: none;
-  float:left;
+  
 }
 
 .work1 p {
@@ -342,7 +342,7 @@ margin: 100px;
 .languageBoxes .box p {
   box-sizing: border-box;
   border: 1px solid #8993a4;
-  /* display: flex;*/
+  display: flex;
   align-items: center;
   padding: 4px 4px;
   font-family: "Inter", sans-serif;
