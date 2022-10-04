@@ -62,7 +62,7 @@ order: 0;
 flex-grow: 0;
 
 }
-.toolbar-contaainer{
+.toolbar-container{
 position: absolute;
 visibility: hidden;
 left: 0px;
@@ -755,3 +755,100 @@ button:hover {
   background: #fff5e1;
   border: 1px solid #f55800;
 }
+.touch{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  gap: 58px;
+  position: absolute;
+  width: 375px;
+  height: 844px;
+  left: 0;
+  top: 6038px;
+}
+
+ .h2-text{
+ width: 327px;
+height: 216px;
+ margin-left: 5%;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 44px;
+/* or 138% */
+
+text-align: center;
+
+/* Neutrals/N800 */
+
+color: #172B4D;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+ }
+ form {
+  width: 327px;
+  height: 216px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  /* or 138% */
+
+  text-align: center;
+
+  /* Neutrals/N800 */
+
+  color: #172B4D;
+
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+ }
+ .inputText {
+  border: none;
+  border-bottom: 1px solid #dbd8d7;
+  padding-bottom: 14px;
+  padding-top: 14px;
+  padding-right: 15px;
+  padding-left: 15px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+   /* or 160% */
+    /* Theme 3 / Neutral 6 */
+  display: flex;
+  align-items: center;
+  /* Theme 3 / Neutral 6 */
+  color: #979493;
+  }  
+.touchForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 5px;
+  width: 375px;
+  padding-left: 24px;
+  padding-right: 24px;
+  list-style: none;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
