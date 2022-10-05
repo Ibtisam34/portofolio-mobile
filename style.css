@@ -787,6 +787,7 @@ button:active {
 button:hover {
   background: #fff5e1;
   border: 1px solid #f55800;
+  color:#f55800;
 }
  .img {
   margin-left: 39px;
