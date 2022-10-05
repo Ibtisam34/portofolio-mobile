@@ -24,7 +24,7 @@
   width: 40px;
   height: 40px;
   right: 24px;
-  top: calc(50% - 40px/2);
+  top: calc(50% - 40px / 2);
   border-radius: 8px;
 }
 
@@ -37,7 +37,7 @@
   width: 101px;
   height: 44px;
   left: 12px;
-  top: calc(50% - 44px/2);
+  top: calc(50% - 44px / 2);
 }
 
 .logo-text {
@@ -96,7 +96,7 @@
 .headline-text {
   width: 327px;
   height: 124px;
-  font-family: 'Crete Round';
+  font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 56px;
@@ -112,7 +112,7 @@
 .supporting-text {
   width: 327px;
   height: 27px;
-  font-family: 'Crete Round';
+  font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -472,7 +472,7 @@
   flex-grow: 0;
 }
 
-   .aboutme button {
+.aboutme button {
   display: flex;
   align-items: center;
   padding: 12px;
