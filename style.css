@@ -4,8 +4,6 @@
   height: 92px;
   left: 0;
   top: 0;
-
-  /* Theme 3 / Neutral 2 */
   background: #3c3a39;
 }
 
@@ -47,13 +45,7 @@
   align-items: center;
   text-align: center;
   margin-top: 5px;
-
-  /* Theme 3 / Neutral 11 */
-
   color: #fff;
-
-  /* Inside auto layout */
-
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -66,8 +58,6 @@
   right: 0;
   top: 0;
   bottom: 0;
-
-  /* Base / 900 */
   background: #181e25;
 }
 
@@ -78,8 +68,6 @@
   right: 0;
   top: 0;
   bottom: 0;
-
-  /* Overlay / Gradient ↓ */
   background:
     linear-gradient(
       180deg,
@@ -114,15 +102,8 @@
   font-size: 56px;
   line-height: 64px;
   margin-bottom: auto;
-
-  /* or 114% */
   letter-spacing: 0.37px;
-
-  /* Theme 3 / Primary 1 */
   color: #ff6b00;
-
-  /* Inside auto layout */
-
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -136,17 +117,9 @@
   font-weight: 700;
   font-size: 24px;
   line-height: 32px;
-
-  /* or 133% */
-
   display: flex;
   align-items: center;
-
-  /* Theme 3 / Primary 4 */
   color: #fff5e1;
-
-  /* Inside auto layout */
-
   flex: none;
   order: 1;
   flex-grow: 0;
@@ -155,29 +128,18 @@
 .description-bar {
   width: 327px;
   height: 136px;
-
-  /* Theme 1 / Body Reguler 2 */
   font-family: sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 19px;
   line-height: 24px;
-
-  /* or 150% */
-
   color: #fff;
-
-  /* Inside auto layout */
-
   flex: none;
   order: 2;
   flex-grow: 0;
 }
 
 .social-media {
-  /* Social Media */
-
-  /* Auto layout */
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -187,8 +149,6 @@
   height: 40px;
   gap: 10px;
   list-style: none;
-
-  /* Inside auto layout */
   flex: none;
   order: 3;
   flex-grow: 0;
@@ -202,9 +162,6 @@
   width: 40px;
   height: 40px;
   border-radius: 8px;
-
-  /* Inside auto layout */
-
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -235,14 +192,8 @@
   grid-row: 1/2;
   display: flex;
   align-items: flex-start;
-
-  /* Theme 3 / Neutral 1 */
-
   color: #1c1a19;
   border-bottom: 1px solid #212121;
-
-  /* Inside auto layout */
-
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -305,9 +256,6 @@
 .work1 p {
   width: 295px;
   height: 87px;
-
-  /* Theme 3 / Body Reguler 2 */
-
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -317,9 +265,6 @@
   margin-bottom: 0;
   padding-left: 16px;
   color: #fff;
-
-  /* Inside auto layout */
-
   flex: none;
   flex-grow: 0;
 }
@@ -360,13 +305,7 @@
   gap: 10px;
   width: 124px;
   height: 48px;
-
-  /* Theme 3 / Primary 1 */
-
   background: #ff6b00;
-
-  /* Inside auto layout */
-
   flex: none;
   order: 3;
   flex-grow: 0;
@@ -427,9 +366,6 @@
   font-size: 32px;
   line-height: 44px;
   color: #fff;
-
-  /* Inside auto layout */
-
   flex: none;
   flex-grow: 0;
 }
@@ -456,9 +392,6 @@
   width: 56px;
   height: 40px;
   background: rgba(255, 255, 255, 0.24);
-
-  /* Inside auto layout */
-
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -472,9 +405,6 @@
   width: 95px;
   height: 40px;
   background: rgba(255, 255, 255, 0.24);
-
-  /* Inside auto layout */
-
   flex: none;
   order: 1;
   flex-grow: 0;
@@ -488,9 +418,6 @@
   width: 61px;
   height: 40px;
   background: rgba(255, 255, 255, 0.24);
-
-  /* Inside auto layout */
-
   flex: none;
   order: 2;
   flex-grow: 0;
@@ -530,8 +457,6 @@
 }
 
 .about h1 {
-  /* Primary Text */
-
   width: 327px;
   height: 79px;
   font-family: "Crete Round", sans-serif;
@@ -781,13 +706,7 @@ button:hover {
   width: 327px;
   height: 216px;
   text-align: center;
-
-  /* Neutrals/N800 */
-
   color: #172b4d;
-
-  /* Inside auto layout */
-
   flex: none;
   order: 0;
   flex-grow: 0;
