@@ -780,3 +780,14 @@ hr {
   align-items: center;
   list-style: none;
 }
+button:active {
+  background: #E05304;
+}
+
+button:hover {
+  background: #fff5e1;
+  border: 1px solid #f55800;
+}
+ .img {
+  margin-left: 39px;
+ }
