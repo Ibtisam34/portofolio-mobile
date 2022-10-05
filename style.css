@@ -62,7 +62,7 @@ order: 0;
 flex-grow: 0;
 
 }
-.toolbar-container{
+.toolbar-contaainer{
 position: absolute;
 visibility: hidden;
 left: 0px;
@@ -755,7 +755,7 @@ button:hover {
   background: #fff5e1;
   border: 1px solid #f55800;
 }
-.touch{
+.touch {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -770,77 +770,39 @@ button:hover {
   top: 6038px;
 }
 
- .h2-text{
- width: 327px;
-height: 216px;
- margin-left: 5%;
-font-family: 'Inter';
-font-style: normal;
-font-weight: 700;
-font-size: 32px;
-line-height: 44px;
-/* or 138% */
-
-text-align: center;
-
-/* Neutrals/N800 */
-
-color: #172B4D;
-
-
-/* Inside auto layout */
-
-flex: none;
-order: 0;
-flex-grow: 0;
- }
- form {
-  width: 327px;
-  height: 216px;
-
-  font-family: 'Inter';
+.touch h2 {
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
-  /* or 138% */
-
+  padding-left: 24px;
+  padding-right: 24px;
+  width: 327px;
+  height: 216px;
   text-align: center;
 
   /* Neutrals/N800 */
 
-  color: #172B4D;
-
+  color: #172b4d;
 
   /* Inside auto layout */
 
   flex: none;
   order: 0;
   flex-grow: 0;
- }
+}
 
- .form-items li {
-  list-style: none;
- }
- .inputText {
+.input-Text {
   border: none;
   border-bottom: 1px solid #dbd8d7;
   padding-bottom: 14px;
   padding-top: 14px;
   padding-right: 15px;
   padding-left: 15px;
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 15px;
-  line-height: 24px;
-   /* or 160% */
-    /* Theme 3 / Neutral 6 */
-  display: flex;
-  align-items: center;
-  /* Theme 3 / Neutral 6 */
-  color: #979493;
-  }  
+  width: 325px;
+}
+
 .touchForm {
   display: flex;
   flex-direction: column;
@@ -863,12 +825,6 @@ flex-grow: 0;
   border: none;
   margin-top: 24px;
   padding: 12px;
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 15px;
-  line-height: 24px;
-  color: #3C3A39;
 }
 
 .touch-button {
@@ -877,28 +833,31 @@ flex-grow: 0;
   height: 48px;
   border: none;
   color: #fff;
-  margin-left: 125px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 12px;
-  gap: 10px;
-
-  width: 131px;
-  height: 48px;
-
-  /* Theme 3 / Primary 1 */
-  background: #FF6B00;
-  /* Inside auto layout */
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 17px;
-  line-height: 24px;
-  /* identical to box height, or 141% */
-  margin-bottom: 50%;
+  margin-left: 5px;
 }
 
 .touchForm li {
   align-self: center;
+}
+
+hr {
+  background: #dbd8d7;
+  width: 327px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  width: 375px;
+  height: 72px;
+  left: 0;
+  top: 6886px;
+  border-top: 1px solid #8993a4;
+}
+
+.footer .Social-Media {
+  display: flex;
+  align-items: center;
+  list-style: none;
 }
