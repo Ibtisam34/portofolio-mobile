@@ -797,3 +797,8 @@ textarea {
   color:green;
   transition: 1s;
  }
+
+.head:hover p {
+  color:#e05304;
+  transition: 1s;
+} 
