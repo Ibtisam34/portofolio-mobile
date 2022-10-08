@@ -201,7 +201,7 @@ hr {
   gap: 12px;
 }
 
-  .work1Description {
+.work1Description {
   padding-left: 5%;
   display: flex;
   flex-direction: column;
@@ -578,7 +578,7 @@ textarea {
     color: #091e42;
   }
 
-   .worksdescription p {
+  .worksdescription p {
     font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -631,11 +631,11 @@ textarea {
     padding-bottom: 10%;
     padding-left: 5%;
   }
+
   .footer .socialmedia {
     flex-direction: row;
     padding-top: 1%;
   }
-
 
   #w1,
   #w2,
@@ -672,6 +672,7 @@ textarea {
   #w6:hover #w6button {
     display: block;
   }
+
   #w1work1Discription,
   #w2work1Discription,
   #w3work1Discription,
@@ -690,7 +691,6 @@ textarea {
   #w6:hover #w6work1Discription {
     display: none;
   }
- 
 
   #w5,
   #w2 {

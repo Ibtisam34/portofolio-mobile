@@ -94,4 +94,4 @@ a few modifications to the linter configuration files.
 2. Use `npx stylelint "**/*.scss"` to lint you SCSS files and not the generated CSS
 
 Once you've done the previous steps you can focus on your SCSS files and not in fixing the generated CSS output
-every time.
+every time. 
