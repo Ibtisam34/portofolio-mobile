@@ -789,3 +789,11 @@ textarea {
     padding-top: 0;
   }
 }
+.logo:hover {
+ background:#ff6b6b;
+ transform: rotate(45deg);
+}
+ .head:hover h2 {
+  color:green;
+  transition: 1s;
+ }
