@@ -168,8 +168,17 @@ hr {
   font-size: 17px;
   line-height: 141%;
   color: #fff;
+  margin-right: 84%;
 }
 
+
+#submitbtn{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+  ;
+}
 .languageboxes {
   display: flex;
   flex-direction: row;
@@ -207,7 +216,6 @@ hr {
   flex-direction: column;
   gap: 12px;
 }
-
 .work1 h2 {
   font-family: "Crete Round", sans-serif;
   font-style: normal;
@@ -215,6 +223,8 @@ hr {
   font-size: 32px;
   line-height: 138%;
   color: #fff;
+  padding-bottom: 1%;
+  padding-left: 2%;
 }
 
 .work1 p {
@@ -224,6 +234,9 @@ hr {
   font-size: 16px;
   line-height: 150%;
   color: #fff;
+  padding-bottom: 1%;
+  padding-left:2%;
+  padding-right: 1%;
 }
 
 .category {
@@ -231,7 +244,7 @@ hr {
   flex-direction: row;
   gap: 12px;
   justify-content: flex-start;
-  padding-left: 0;
+  padding-left: 2%;
   list-style: none;
 }
 
@@ -242,6 +255,7 @@ hr {
   box-sizing: border-box;
   color: white;
 }
+
 
 .work1 button {
   width: 100%;
@@ -321,9 +335,9 @@ hr {
 
 .myskillslanguage {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 44px;
+    flex-direction: column;
+    align-items: start;
+    gap: 44px;
 }
 
 .myskillHeading {
@@ -346,12 +360,11 @@ hr {
 }
 
 .skil-lList {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  list-style: none;
-  padding: 0;
-  gap: 5px;
+  list-style: none !important;
+  margin: 0px !important;
+  padding: 0px !important;
+  align-self: flex-start;
+  margin-bottom: 10px;
 }
 
 .skill-List li {
@@ -361,13 +374,16 @@ hr {
   font-size: 22px;
   line-height: 194%;
   color: #fff;
+  list-style: none;
+  align-items: left;
+  padding-right: 190%;
 }
 
 .touch {
   display: flex;
   flex-direction: column;
   gap: 73px;
-  align-items: center;
+  align-items: flex-start;
   padding-top: 120px;
   padding-left: 5%;
   padding-right: 5%;
@@ -408,6 +424,7 @@ hr {
   letter-spacing: 0.03em;
   text-align: center;
   width: 136px;
+  justify-content: start;
 }
 
 textarea {
@@ -631,7 +648,7 @@ textarea {
     padding-bottom: 10%;
     padding-left: 5%;
   }
-
+  
   .footer .socialmedia {
     flex-direction: row;
     padding-top: 1%;
