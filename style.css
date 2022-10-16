@@ -452,11 +452,7 @@ textarea {
 .button:hover {
   background: #fff5e1;
   border: 1px solid #f55800;
-<<<<<<< HEAD
   color:#f55800;
-=======
-  color: rgba(245, 88, 0, 1);
->>>>>>> main
 }
 
 .button:active {
