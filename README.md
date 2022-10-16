@@ -1,97 +1,79 @@
-# HTML & CSS3 Course
+# Linters Config
 
-If you are not familiar with linters, read [root level README](../README.md).
+## How to use this repo? 🤔
 
-## Set-up GitHub Actions
+Each directory listed below contains config files specific to one programming language and README file with detailed instructions:
 
-Please do the following **steps in this order**:
+- [html&css](./html-css)
+- [html&css + javascript](./html-css-js) (for projects that require you to use both JavaScript and HTML & CSS)
+- [ruby](./ruby)
+- [ror](./ror)
+- [javascript](./javascript)
+- [react&redux](./react-redux)
 
-1. In the first commit of your feature branch create a `.github/workflows` folder and add a copy of [`.github/workflows/linters.yml`](.github/workflows/linters.yml) to that folder.
-   - **Remember** to use the file linked above
-   - **Remember** that `.github` folder starts with a dot.
-2. **Do not make any changes in config files - they represent style guidelines that you share with your team - which is a group of all Microverse students.**
-   - If you think that change is necessary - open a [Pull Request in this repository](../README.md#contributing) and let your code reviewer know about it.
-3. When you open your first pull request you should see the result of the GitHub actions checks:
+Follow those instructions in order to set up linters or validators in your repo.
 
-![gh actions checks](../assets/images/gh-actions-html-css-checks.png)
+In order to get to know more about linters and GitHub Actions read the recap below.
 
-Click on the `Details` link of each action to see the full output and the errors that need to be fixed:
+## Linters
 
-![gh actions failing checks](../assets/images/gh-actions-html-css-failing-checks.png)
+A linter is a tool that analyzes your source code to flag programming errors, bugs, stylistic errors, and suspicious constructs(source: [Wikipedia](<https://en.wikipedia.org/wiki/Lint_(software)>)).
 
-## Set-up linters in your local env
+There are a few reasons for using linters:
 
-**Note**: The `npm` package manager is going to create a `node_modules` directory to install all of your dependencies. You shouldn't commit that directory. To avoid that, you can create a [`.gitignore`](https://git-scm.com/docs/gitignore) file and add `node_modules` to it:
+1. Catching syntax errors is more efficient. There is no need to debug simple mistakes like typos - the linter does it for you.
+2. The entire codebase looks like written by one person.
+3. Programmers can focus on solving problems, instead of cleaning up the code.
+
+---
+
+You can find linters for most of the programming languages, e.g. Rubocop for Ruby or ESLint for JavaScript.
+
+Also, there are many ways you can integrate a linter in your workflow:
+
+- text editor plugin
+- GitHub Actions
+- GitHub apps
+
+## GitHub Actions
+
+[Github Actions](https://help.github.com/en/actions) is a [CI/CD](https://codilime.com/what-is-ci-cd-all-you-need-to-know/) service offered by GitHub. It allows you to automate your workflow by letting GitHub take care of a number of tasks which can be triggered by [different of events](https://help.github.com/en/actions/reference/events-that-trigger-workflows) on the platform.
+
+🐛 **What to do if GitHub Actions does not work?** Check [Troubleshooting](#troubleshooting) below.
+
+You can automate tasks by creating **workflows** in your GitHub repository. GitHub will look for [YAML](https://en.wikipedia.org/wiki/YAML) files inside of the `.github/workflows` directory.
+
+## Troubleshooting
+
+Depending on the configuration of your GitHub credentials, you may have an error like this when trying to create a new GitHub Actions workflow:
 
 ```
-# .gitignore
-node_modules/
+! [remote rejected] master -> master (refusing to allow an OAuth App to create or update workflow `.github/workflows/file.yml` without `workflow` scope)
+
 ```
 
-### [Lighthouse](https://developers.google.com/web/tools/lighthouse)
+The problem is that you may be using a credentials app like [Credential Manager in Windows](https://github.com/gitextensions/gitextensions/issues/4916#issuecomment-557509451) or OSX Keychain. In that case, you should [setup a personal access token](https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line) and configure it in your credentials app. Make sure to check the `workflow` permissions when you setup your personal access token.
 
-An open-source, automated tool for improving the quality of web pages. It has audits for performance, accessibility, progressive web apps, SEO and more.
+If you had a different problem related to a specific tool, please check detailed instructions for each linter:
 
-You can get the Lighthouse report by any of the following ways:
+- [html&css](./html-css#troubleshooting)
+- [ruby](./ruby#troubleshooting)
+- [ror](./ror#troubleshooting)
+- [javascript](./javascript#troubleshooting)
+- [react&redux](./react-redux#troubleshooting)
 
-- [In Chrome DevTools](https://developers.google.com/web/tools/lighthouse#devtools)
-- [From the command line](https://developers.google.com/web/tools/lighthouse#cli)
-- [As a Node module](https://developers.google.com/web/tools/lighthouse#programmatic)
-- [From a web UI](https://developers.google.com/web/tools/lighthouse#psi)
+## Validation
 
-To access the report generated by Lighthouse on your pull request, click the `Details` link for the `Linters/Lighthouse` check and you will see the full output of the action:
+Do not make any changes in config files - they represent style guidelines that you share with your team - which is a group of all Microverse students.
 
-![lighthouse report](../assets/images/lighthouse-report.png)
+TSEs will validate that you are using the same configuration files provided here. You can check if your linter configuration is correct using the [`check-linters-config`](scripts) script.
 
-### [Webhint](https://webhint.io/)
+## Stickler
 
-A customizable linting tool that helps you improve your site's accessibility, speed, cross-browser compatibility, and more by checking your code for best practices and common errors.
+This is the **GitHub Actions configuration**. If you are looking for the **Stickler configuration**, you can find it [here](https://github.com/microverseinc/linters-config/tree/Stickler).
 
-**NOTE:** If you are running on Windows, you need to initialize npm to create `package.json` file. 
-   ```
-   npm init -y
-   ```
+## Contributing
 
-1. Run
-   ```
-   npm install --save-dev hint@7.x
-   ```
-   *not sure how to use npm? Read [this](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm).*
-2. Copy [.hintrc](.hintrc) to the root directory of your project.
-3. **Do not make any changes in config files - they represent style guidelines that you share with your team - which is a group of all Microverse students.**
-   - If you think that change is necessary - open a [Pull Request in this repository](../README.md#contributing) and let your code reviewer know about it.
-4. Run
-   ```
-   npx hint .
-   ```
-5. Fix validation errors.
+Everybody is welcome to suggest changes in linters config files.
 
-### [Stylelint](https://stylelint.io/)
-
-A mighty, modern linter that helps you avoid errors and enforce conventions in your styles.
-
-1. Run
-
-   ```
-   npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x
-   ```
-
-   *not sure how to use npm? Read [this](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm).*
-
-2. Copy [.stylelintrc.json](./.stylelintrc.json) to the root directory of your project.
-3. **Do not make any changes in config files - they represent style guidelines that you share with your team - which is a group of all Microverse students.**
-   - If you think that change is necessary - open a [Pull Request in this repository](../README.md#contributing) and let your code reviewer know about it.
-4. Run `npx stylelint "**/*.{css,scss}"` on the root of your directory of your project.
-5. Fix linter errors.
-6. **IMPORTANT NOTE**: feel free to research [auto-correct options for Stylelint](https://stylelint.io/user-guide/cli#autofixing-errors) if you get a flood of errors but keep in mind that correcting style errors manually will help you to make a habit of writing a clean code!
-
-## Have you already completed the Sass lessons?
-
-If you completed the Sass lessons you may prefer to work with SCSS files, if that's the case you need to perform
-a few modifications to the linter configuration files.
-
-1. In the file `.github/workflows/linters.yml` [line 48](https://github.com/microverseinc/linters-config/blob/master/html-css/.github/workflows/linters.yml#L48) replace `"**/*.{css,scss}"` with `"**/*.scss"`
-2. Use `npx stylelint "**/*.scss"` to lint you SCSS files and not the generated CSS
-
-Once you've done the previous steps you can focus on your SCSS files and not in fixing the generated CSS output
-every time.
+In order to do it, fork this repository, create a new branch and open a Pull Request from your branch. A detailed description of this process: [A Step by Step Guide to Making Your First GitHub Contribution by Roshan Jossey](https://codeburst.io/a-step-by-step-guide-to-making-your-first-github-contribution-5302260a2940)
