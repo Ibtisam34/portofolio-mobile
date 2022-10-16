@@ -452,7 +452,7 @@ textarea {
 .button:hover {
   background: #fff5e1;
   border: 1px solid #f55800;
-  color:#f55800;
+  color: #f55800;
 }
 
 .button:active {
@@ -789,8 +789,9 @@ textarea {
     padding-top: 0;
   }
 }
+
 .logo:hover {
- background:#ff6b6b;
+ background:  #ff6b6b;
  transform: rotate(45deg);
 }
  .head:hover h2 {
