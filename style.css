@@ -22,7 +22,16 @@ header {
   padding-bottom: 12px;
   padding-top: 28px;
 }
+.nav-menu {
+  display: none;
+}
 
+.navbar {
+  display: flex;
+}
+.humburger {
+  margin-left: 200px;
+}
 .logo {
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -31,6 +40,9 @@ header {
   line-height: 24px;
   color: #fff;
 }
+
+  
+  
 
 .Headline-bar {
   display: flex;
@@ -481,31 +493,40 @@ textarea {
     display: none;
   }
 
-  .menuList {
-    display: flex;
-    gap: 32px;
+  li {
     list-style: none;
   }
-
-  .menuList li {
-    font-family: "Inter", sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 15px;
-    line-height: 133%;
-    color: #fff;
-  }
-
-  .menuList a {
-    font-family: "Inter", sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 15px;
-    line-height: 133%;
-    color: #fff;
+  a{
+    color: white;
     text-decoration: none;
   }
-
+  .navbar {
+    min-height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 24px;
+  }
+  .nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+    margin-left: 900px;
+  }
+  .nav-link {
+    transition: 0.7s ease;
+  }
+  .nav-menu ul li {
+    margin-left: 100px;
+  }
+  .nav-link:hover{
+    color: #e05304;
+  }
+  .humburger {
+    display: none;
+  }
+ 
   .Headline-bar {
     flex-direction: row-reverse;
     justify-content: flex-end;
