@@ -30,6 +30,7 @@ header {
 .navbar {
   display: flex;
 }
+
 .humburger {
   margin-left: 200px;
 }
@@ -385,7 +386,7 @@ hr {
   line-height: 194%;
   color: #fff;
   list-style: none;
-  align-items: left;
+  align-items: flex-start;
   padding-right: 190%;
 }
 
@@ -496,7 +497,7 @@ textarea {
     list-style: none;
   }
 
-  a{
+  a {
     color: white;
     text-decoration: none;
   }
@@ -525,14 +526,14 @@ textarea {
     margin-left: 100px;
   }
 
-  .nav-link:hover{
+  .nav-link:hover {
     color: #e05304;
   }
 
   .humburger {
     display: none;
   }
- 
+
   .Headline-bar {
     flex-direction: row-reverse;
     justify-content: flex-end;
@@ -808,16 +809,16 @@ textarea {
 }
 
 .logo:hover {
- background:  #ff6b6b;
+ background: #ff6b6b;
  transform: rotate(45deg);
 }
 
  .head:hover h2 {
-  color:green;
+  color: green;
   transition: 1s;
  }
 
 .head:hover p {
   color:#e05304;
   transition: 1s;
-} 
+}
