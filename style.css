@@ -784,7 +784,7 @@ textarea {
 
   #w4,
   #w1 {
-    background:url("SVG/w1w4bg.png");
+    background: url("SVG/w1w4bg.png");
     background-repeat: no-repeat;
     padding-top: 50%;
   }
@@ -849,7 +849,7 @@ textarea {
 .head:hover h2 {
   color: green;
   transition: 1s;
- }
+}
 
 .head:hover p {
   color: #e05304;
