@@ -22,6 +22,7 @@ header {
   padding-bottom: 12px;
   padding-top: 28px;
 }
+
 .nav-menu {
   display: none;
 }
@@ -32,6 +33,7 @@ header {
 .humburger {
   margin-left: 200px;
 }
+
 .logo {
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -40,9 +42,6 @@ header {
   line-height: 24px;
   color: #fff;
 }
-
-  
-  
 
 .Headline-bar {
   display: flex;
@@ -496,10 +495,12 @@ textarea {
   li {
     list-style: none;
   }
+
   a{
     color: white;
     text-decoration: none;
   }
+
   .navbar {
     min-height: 70px;
     display: flex;
@@ -507,6 +508,7 @@ textarea {
     align-items: center;
     padding: 0 24px;
   }
+
   .nav-menu {
     display: flex;
     justify-content: space-between;
@@ -514,15 +516,19 @@ textarea {
     gap: 60px;
     margin-left: 900px;
   }
+
   .nav-link {
     transition: 0.7s ease;
   }
+
   .nav-menu ul li {
     margin-left: 100px;
   }
+
   .nav-link:hover{
     color: #e05304;
   }
+
   .humburger {
     display: none;
   }
@@ -731,8 +737,6 @@ textarea {
 
   #w5,
   #w2 {
-    /* display: flex;
-    flex-direction: column; */
     background-image: url("SVG/bgw2.svg");
     background-repeat: no-repeat;
     padding-top: 50%;
@@ -747,8 +751,6 @@ textarea {
         rgba(38, 38, 38, 0.9) 84.18%
       )
       url("SVG/w1w4bg.png");
-
-    /* background-image: url("SVG/w4bgdt.png"); */
     background-repeat: no-repeat;
     padding-top: 50%;
   }
@@ -758,16 +760,12 @@ textarea {
   #w2:hover,
   #w5:hover {
     background-image: url("SVG/w1w4bg.png");
-
-    /* background-image: url("SVG/w4bgdt.png"); */
     background-repeat: no-repeat;
     padding-top: 50%;
   }
 
   #w6,
   #w3 {
-    /* display: flex;
-    flex-direction: column; */
     background-image: url("SVG/w6bgdt.png");
     background-repeat: no-repeat;
     padding-top: 59%;
@@ -775,8 +773,6 @@ textarea {
 
   #w6:hover,
   #w3:hover {
-    /* display: flex;
-    flex-direction: column; */
     background-image: url("SVG/w1w4bg.png");
     background-repeat: no-repeat;
     padding-top: 59%;
@@ -815,6 +811,7 @@ textarea {
  background:  #ff6b6b;
  transform: rotate(45deg);
 }
+
  .head:hover h2 {
   color:green;
   transition: 1s;
