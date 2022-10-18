@@ -10,18 +10,44 @@
   <body>
     <div class="container">
       <header>
-        <h1 class="logo">Riyana Abdi</h1>
-        <img src="SVG/Icon - Menu.svg" alt="" class="menuIcon" />
-        <ul class="menuList">
-          <li>Portfolio</li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#Contact">Contact</a></li>
-          <li>
-            <a href="mailto:karanjain2212@gmail.com"
+       <nav class="navbar">
+        <h1 class="logo">Riyana </h1>
+        <div class="humburger">
+          <img src="./img/Menu.png" alt="" id="openBtn">
+        </div>
+        <ul class="nav-menu">
+          <li class="nav-item">
+            <a href="#portofolio" class="nav-link">portofolio</a>
+          </li>
+          <li class="nav-item">
+            <a href="#about" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link">contact</a>
+          </li>
+          <li class="nav-item">
+            <a href="mailto:Riyanagwl@gmail.com"
               ><img src="SVG/Mail.svg" alt=""
             /></a>
           </li>
         </ul>
+        </nav>
+        <div id="overlay">
+          <div class="closeImg">
+              <img src="./img/Icon.png" alt="Close Image" class="close" id="closeBtn">
+          </div>
+          <ul>
+            <li>
+              <a href="#portofolio" class="overlay_link" >Portfolio</a>
+            </li>
+            <li>
+              <a href="#about"  class="overlay_link">About</a>
+            </li>
+            <li>
+              <a href="#contact" class="overlay_link">Contact</a>
+            </li>
+          </ul>
+        </div>  
       </header>
       <section class="Headline-bar">
         <div class="head">
@@ -345,5 +371,6 @@
         </div>
       </footer>
     </div>
+    <script src="./script.js"></script>
   </body>
 </html>
