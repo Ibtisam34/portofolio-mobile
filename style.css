@@ -564,7 +564,7 @@ textarea {
     justify-content: space-between;
     align-items: center;
     gap: 60px;
-    margin-left: 900px;
+    margin-left: 850px;
   }
 
   .nav-link {
@@ -572,7 +572,7 @@ textarea {
   }
 
   .nav-menu ul li {
-    margin-left: 100px;
+    margin-left: 50px;
   }
 
   .nav-link:hover {
