@@ -72,8 +72,7 @@ const projectCard = [
 projectCard.forEach((data) => {
   render += `<div id="w2" class="work1">
   <div class="work1Discription" id="w2work1Discription">
-    <h2>
-      <span id="w2b">${data.title}</span>
+    <h2
       <span id="w2d">${data.title}</span>
     </h2>
     <p>

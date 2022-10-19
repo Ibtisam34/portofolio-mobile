@@ -165,15 +165,9 @@ header {
   font-size: 32px;
   line-height: 44px;
   color: #172b4d;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
 }
 
 .crossimg {
-  width: 20%;
-  padding: 30px 0;
-  display: flex;
   cursor: pointer;
 }
 
@@ -260,10 +254,6 @@ header {
   left: 0.013671875px;
   top: 0;
   border-radius: 0;
-}
-
-.recent-title {
-  width: 50%;
 }
 
 .f-img {
@@ -812,7 +802,9 @@ textarea {
     line-height: 160%;
     color: #f4f5f7;
   }
-
+  .modal-header h2 {
+    display: none;
+  }
   .Recentwork {
     flex-direction: row;
     flex-wrap: nowrap;
@@ -874,14 +866,15 @@ textarea {
     font-size: 32px;
     line-height: 44px;
     color: #172b4d;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
+    width: 60%;
   }
 
+  
+.f-img {
+  width: 60%;
+}
+
   .crossimg {
-    padding: 20px;
-    display: flex;
     cursor: pointer;
   }
 
