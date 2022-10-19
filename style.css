@@ -191,14 +191,14 @@ header {
 }
 
 .worksdescription1 p {
-  font-family: 'Inter',sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 30px;
   color: #344563;
   flex: none;
-  order:  0;
+  order: 0;
   flex-grow: 0;
 }
 
@@ -215,7 +215,7 @@ header {
 .button2 {
   padding: 12px;
   gap: 12px;
-  width:  159px;
+  width: 159px;
   height: 48px;
   background: #f55800;
   margin-left: 10px;
@@ -226,9 +226,9 @@ header {
   text-decoration: none;
   color: #fff;
   display: inline;
-  font-family: Inter;
+  font-family: 'Inter', sans-serif;
   font-size: 17px;
-  font-weight:  700;
+  font-weight: 700;
   line-height: 24px;
   letter-spacing: 0.03em;
   text-align: center;
@@ -242,23 +242,23 @@ header {
   font-weight: 700;
   line-height: 24px;
   letter-spacing: 0.03em;
-  text-align:  center;
+  text-align: center;
 }
 
-.button1 a img{
+.button1 a img {
   box-sizing: border-box;
   left: 16.67%;
   right: 16.67%;
-  top:  16.67%;
+  top: 16.67%;
   bottom: 16.67%;
   border: 2px solid #67798e;
 }
 
 .button2 a img {
   height: 20px;
-  width:  17.985200881958008px;
+  width: 17.985200881958008px;
   left: 0.013671875px;
-  top:  0px;
+  top: 0px;
   border-radius: 0;
 }
 
@@ -722,8 +722,7 @@ textarea {
   color: #fff;
 }
 
-@media screen and (min-width: 768px)  {
-  
+@media screen and (min-width: 768px) {
   .menuIcon {
     display: none;
   }
@@ -829,7 +828,7 @@ textarea {
     color: #091e42;
     width: 57%;
   }
-  
+
   .Recentwork1 {
     z-index: 1;
     top: 0;
@@ -941,7 +940,7 @@ textarea {
     flex: none;
     order:  0;
     flex-grow: 0;
-   }
+  }
 
    .button1 {
     padding: 12px;
@@ -951,59 +950,59 @@ textarea {
     background: #f55800;
     margin-left: 10px;
     margin-top: 70px;
-   }
+  }
 
    .button2 {
     padding: 12px;
     gap: 12px;
-    width:  159px;
+    width: 159px;
     height: 48px;
     background: #f55800;
     margin-left: 10px;
     margin-top: 70px;
-   }
-
+  }
+   
    .button1 a {
     display: inline;
-    font-family: Inter;
-    font-size: 17px;
-    font-weight:  700;
-    line-height: 24px;
-    letter-spacing: 0.03em;
-    text-align: center;
-   }
-
-   .button2 a {
-    font-family: Inter, sans-serif;
+    font-family: 'Inter', sans-serif;
     font-size: 17px;
     font-weight: 700;
     line-height: 24px;
     letter-spacing: 0.03em;
-    text-align:  center;
-   }
+    text-align: center;
+  }
+
+   .button2 a {
+    font-family: 'Inter', sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    text-align: center;
+  }
 
    .button1 a img{
     box-sizing: border-box;
     left: 16.67%;
     right: 16.67%;
-    top:  16.67%;
+    top: 16.67%;
     bottom: 16.67%;
     border: 2px solid #67798e;
-   }
+  }
 
    .button2 a img {
     height: 20px;
-    width:  17.985200881958008px;
+    width: 17.985200881958008px;
     left: 0.013671875px;
-    top:  0px;
+    top: 0;
     border-radius: 0;
-   }
+  }
 
   .work-cards {
     display: grid;
-    grid-template-columns:  repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 435px);
-    row-gap:  37px;
+    row-gap: 37px;
     column-gap: 24px;
   }
 
