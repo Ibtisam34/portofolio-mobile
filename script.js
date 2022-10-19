@@ -17,7 +17,7 @@ document.querySelectorAll('.overlay_link').forEach((l) => l.addEventListener('cl
 
 const projectSection = document.querySelector('.work-cards');
 let render = '';
- 
+
 const projectCard = [
   {
     title: 'Profesional Art Printing Data More',
@@ -68,7 +68,7 @@ const projectCard = [
     sourceLink: 'https://github.com/ibtisam34/My-Portfolio',
   },
 ];
- 
+
 projectCard.forEach((data) => {
   render += `<div id="w2" class="work1">
   <div class="work1Discription" id="w2work1Discription">
@@ -93,7 +93,7 @@ projectCard.forEach((data) => {
 </div>`;
   projectSection.innerHTML = render;
 });
- 
+
 const container = document.querySelector('.work-cards');
 const recent = document.querySelector('.Recentwork1');
 const closeIcon = document.querySelector('.crossimg');
@@ -102,15 +102,14 @@ const title = document.querySelector('.recent-title');
 const description = document.querySelector('.recent-description');
 const liveLink = document.querySelector('.live');
 const sourceLink = document.querySelector('.source');
- 
+
 const button = container.querySelectorAll('.btn1');
 const recentTitle = container.querySelectorAll('.title');
 const recentDescription = container.querySelectorAll('.description');
 const recentlivelink = container.querySelectorAll('.livelink');
 const recentsourcelink = container.querySelectorAll('.sourcelink');
 
- 
-for (let i = 0; i < button.length; i++) {
+for (let i = 0; i < button.length; i += 1) {
   button[i].addEventListener('click', () => {
     title.textContent = recentTitle[i].innerHTML;
     description.textContent = recentDescription[i].innerHTML;
@@ -123,7 +122,7 @@ for (let i = 0; i < button.length; i++) {
 closeIcon.addEventListener('click', () => {
   recent.classList.remove('active');
 });
- 
+
 multiProject.addEventListener('click', () => {
   recent.classList.add('active');
 });
