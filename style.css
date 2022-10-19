@@ -127,8 +127,8 @@ header {
 .Recentwork1 {
   z-index: 1;
   top: 4%;
-  Width: (343px);
-  Height: (718px);
+  width: 343px;
+  height: 718px;
   opacity: 0;
   visibility: hidden;
   position: fixed;
@@ -828,8 +828,8 @@ textarea {
   .Recentwork1 {
     z-index: 1;
     top: 4%;
-    Width: 1156px;
-    Height:631px;
+    width: 1156px;
+    height: 631px;
     opacity: 0;
     visibility: hidden;
     position: fixed;
@@ -876,6 +876,7 @@ textarea {
   .f-img {
     width: 60%;
   }
+
   .crossimg {
     cursor: pointer;
   }
