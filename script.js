@@ -89,7 +89,7 @@ projectCard.forEach((data) => {
   <p class="description" hidden>${data.description}</p>
   <p class="livelink" hidden>${data.liveLink}</p>
   <p class="sourcelink" hidden>${data.sourceLink}</p>
-  <a href="#" class="button btn1" id="w2button">See Project</a>
+  <a href="#" class="btn1" id="w2button">See Project</a>
 </div>`;
   projectSection.innerHTML = render;
 });
@@ -97,6 +97,7 @@ projectCard.forEach((data) => {
 const container = document.querySelector('.work-cards');
 const recent = document.querySelector('.Recentwork1');
 const closeIcon = document.querySelector('.crossimg');
+const css = document.querySelector('.css-display');
 const multiProject = document.querySelector('.button');
 const title = document.querySelector('.recent-title');
 const description = document.querySelector('.recent-description');
@@ -120,9 +121,11 @@ for (let i = 0; i < button.length; i += 1) {
   });
 }
 closeIcon.addEventListener('click', () => {
+  css.classList.remove('show');
   recent.classList.remove('active');
 });
 
 multiProject.addEventListener('click', () => {
+  css.classList.add('show');
   recent.classList.add('active');
 });
