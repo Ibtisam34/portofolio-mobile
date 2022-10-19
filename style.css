@@ -126,14 +126,16 @@ header {
 
 .Recentwork1 {
   z-index: 1;
-  top: 0;
-  width: 100%;
-  height: 100vh;
+  top: 4%;
+  Width: (343px);
+  Height: (718px);
   opacity: 0;
   visibility: hidden;
   position: fixed;
   overflow: scroll;
-  left: 0;
+  left: 8%;
+  bottom: 5%;
+  right: 7%;
   background-color: #fff;
   justify-content: center;
   padding: 45px 10px 30px 10px;
@@ -825,14 +827,14 @@ textarea {
 
   .Recentwork1 {
     z-index: 1;
-    top: 0;
-    width: 100%;
-    height: 100vh;
+    top: 4%;
+    Width: 1156px;
+    Height:631px;
     opacity: 0;
     visibility: hidden;
     position: fixed;
     overflow: scroll;
-    left: 0;
+    left: 9%;
     background-color: #fff;
     justify-content: center;
     padding: 45px 10px 30px 10px;
@@ -874,7 +876,6 @@ textarea {
   .f-img {
     width: 60%;
   }
-
   .crossimg {
     cursor: pointer;
   }

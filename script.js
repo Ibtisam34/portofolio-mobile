@@ -72,7 +72,8 @@ const projectCard = [
 projectCard.forEach((data) => {
   render += `<div id="w2" class="work1">
   <div class="work1Discription" id="w2work1Discription">
-    <h2
+    <h2>
+
       <span id="w2d">${data.title}</span>
     </h2>
     <p>
@@ -88,7 +89,7 @@ projectCard.forEach((data) => {
   <p class="description" hidden>${data.description}</p>
   <p class="livelink" hidden>${data.liveLink}</p>
   <p class="sourcelink" hidden>${data.sourceLink}</p>
-  <a href="#" class="btn1" id="w2button">See Project</a>
+  <button class="btn1" id="w2button">See Project</button>
 </div>`;
   projectSection.innerHTML = render;
 });
