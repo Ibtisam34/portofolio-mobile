@@ -802,9 +802,11 @@ textarea {
     line-height: 160%;
     color: #f4f5f7;
   }
+
   .modal-header h2 {
     display: none;
   }
+
   .Recentwork {
     flex-direction: row;
     flex-wrap: nowrap;
@@ -869,10 +871,10 @@ textarea {
     width: 60%;
   }
 
-  
-.f-img {
-  width: 60%;
-}
+
+  .f-img {
+    width: 60%;
+  }
 
   .crossimg {
     cursor: pointer;
