@@ -167,7 +167,6 @@ hr {
   line-height: 44px;
 }
 
-
 .worksdescription p {
   font-family: "Inter", sans-serif;
   font-style: normal;
@@ -215,6 +214,7 @@ hr {
   box-sizing: border-box;
   padding: 10px 12px;
 }
+
 .languageboxes1 {
   display: flex;
   flex-direction: row;
@@ -231,6 +231,7 @@ hr {
   padding: 10px 12px;
   margin-top: 6px;
 }
+
 .work-cards {
   display: grid;
   row-gap: 24px;
@@ -682,11 +683,6 @@ textarea {
     opacity: 1;
   }
 
-
-  .Recentwork1 {
-    
-  }
- 
   .Recentwork hr {
     width: 140%;
   }
@@ -695,26 +691,30 @@ textarea {
     display: flex;
     justify-content: space-between;
   }
+
   .modal-header h1 {
-    font-family: 'Crete Round';
+    font-family: 'Crete Round' sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 32px;
     line-height: 44px;
-    color: #172B4D;
+    color: #172b4d;
     flex: none;
     order: 0;
     flex-grow: 0;
   }
+
   .crossimg {
     padding: 20px;
     display: flex;
   cursor: pointer;
   }
-  .works {
+
+  .works    {
     display: flex;
     gap: 10px;
   }
+
   .works1 {
     display: flex;
     gap: 10px;
@@ -728,13 +728,13 @@ textarea {
   .worksimg {
     width: 52%;
   }
+
   .worksimg1 {
     width: 684px;
     height: 448px;
     margin-top: 10px;
     margin-bottom: 24px;
   }
-  
 
   .worksdescription h1 {
     font-family: "Crete Round", sans-serif;
@@ -776,7 +776,6 @@ textarea {
 
    }
    .button1 {
-   
     padding: 12px;
     gap: 12px;
     width: 159px;
@@ -785,6 +784,7 @@ textarea {
     margin-left: 10px;
     margin-top: 70px;
    }
+
    .button2 {
    
     padding: 12px;
@@ -807,7 +807,6 @@ textarea {
    
    }
    .button2 a {
-  
     font-family: Inter;
     font-size: 17px;
     font-weight: 700;
@@ -816,34 +815,30 @@ textarea {
     text-align: center;
    }
    .button1 a img {
-   
     box-sizing: border-box;
     left: 16.67%;
     right: 16.67%;
     top: 16.67%;
     bottom: 16.67%;
-
     /* Base / 500 - Secondary
-
     For regular body text.
     */
     border: 2px solid #67798E;
-  
    }
+
    .button2 a img {
-   
     height: 20px;
     width: 17.985200881958008px;
     left: 0.013671875px;
     top: 0px;
     border-radius: 0px;
-
    }
+
   .work-cards {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 435px);
-    row-gap: 37px;
+    row-gap:  37px;
     column-gap: 24px;
   }
 
