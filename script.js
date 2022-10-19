@@ -136,7 +136,7 @@ function showMessage(input, message) {
   msg.innerText = message;
 
   // modify the class for the input
-  
+
   msg.className = 'error';
   emailInput.className = 'error-box';
 }
@@ -174,7 +174,3 @@ form.addEventListener('submit', (event) => {
     form.submit();
   }
 });
-
-
-
-

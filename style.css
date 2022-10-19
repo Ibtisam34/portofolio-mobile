@@ -132,7 +132,7 @@ header {
   opacity: 0;
   visibility: hidden;
   position: fixed;
-  /* overflow: scroll; */
+  overflow: scroll;
   left: 5%;
   background-color: #fff;
   justify-content: center;
@@ -625,7 +625,7 @@ input {
 #textarea {
   width: 400px;
   height: 114px;
-  border-radius: 4px
+  border-radius: 4px;
 }
 
 #get-button {
@@ -1040,6 +1040,7 @@ input {
     padding-bottom: 10%;
     padding-left: 5%;
   }
+  
   .form {
     width: 50%;
   }
