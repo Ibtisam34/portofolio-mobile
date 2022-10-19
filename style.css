@@ -141,7 +141,21 @@ header {
   line-height: 130%;
   color: #1c1a19;
 }
-
+.Recentwork1 {
+ 
+}
+.worksimg1 {
+  
+}
+.worksdescription1 p {
+ 
+}
+.button1 {
+  
+}
+.button2 {
+  
+}
 hr {
   width: 95%;
   border: 1px solid black;
@@ -167,6 +181,7 @@ hr {
   line-height: 44px;
 }
 
+
 .worksdescription p {
   font-family: "Inter", sans-serif;
   font-style: normal;
@@ -190,7 +205,7 @@ hr {
   font-size: 17px;
   line-height: 141%;
   color: #fff;
-  margin-right: 84%;
+  margin-right: 60%;
 }
 
 #submitbtn {
@@ -214,7 +229,22 @@ hr {
   box-sizing: border-box;
   padding: 10px 12px;
 }
+.languageboxes1 {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  gap: 10px;
+  justify-content: flex-start;
+  padding-left: 0;
+  padding-bottom: 5%;
+}
 
+.languageboxes1 li {
+  border: 1px solid #8993a4;
+  box-sizing: border-box;
+  padding: 10px 12px;
+  margin-top: 6px;
+}
 .work-cards {
   display: grid;
   row-gap: 24px;
@@ -644,11 +674,62 @@ textarea {
     width: 57%;
   }
 
+  .Recentwork1 {
+    z-index: 1;
+    /* display: flex; */
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    opacity: 0;
+    visibility: hidden;
+    position: fixed;
+    overflow: scroll;
+    left: 0;
+    background-color: #fff;
+    justify-content: center;
+    padding: 45px 10px 30px 10px;
+    transition: visibility 0s ease 0.5s;
+  }
+
+  .Recentwork1.active {
+    visibility: visible;
+    opacity: 1;
+  }
+
+
+  .Recentwork1 {
+    
+  }
+ 
   .Recentwork hr {
     width: 140%;
   }
 
+  .modal-header {
+    display: flex;
+    justify-content: space-between;
+  }
+  .modal-header h1 {
+    font-family: 'Crete Round';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 44px;
+    color: #172B4D;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  .crossimg {
+    padding: 20px;
+    display: flex;
+  cursor: pointer;
+  }
   .works {
+    display: flex;
+    gap: 10px;
+  }
+  .works1 {
     display: flex;
     gap: 10px;
   }
@@ -661,6 +742,13 @@ textarea {
   .worksimg {
     width: 52%;
   }
+  .worksimg1 {
+    width: 684px;
+    height: 448px;
+    margin-top: 10px;
+    margin-bottom: 24px;
+  }
+  
 
   .worksdescription h1 {
     font-family: "Crete Round", sans-serif;
@@ -679,7 +767,92 @@ textarea {
     line-height: 140%;
     color: #091e42;
   }
+  .worksdescription1 p {
+   
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    /* or 188% */
 
+
+    /* Neutrals/N600 */
+
+    color: #344563;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+   }
+   .button1 {
+   
+    padding: 12px;
+    gap: 12px;
+    width: 159px;
+    height: 48px;
+    background: #F55800;
+    margin-left: 10px;
+    margin-top: 70px;
+   }
+   .button2 {
+   
+    padding: 12px;
+    gap: 12px;
+    width: 159px;
+    height: 48px;
+    background: #F55800;
+    margin-left: 10px;
+    margin-top: 70px;
+   }
+   .button1 a {
+   
+    display: inline;
+    font-family: Inter;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    text-align: center;
+   
+   }
+   .button2 a {
+  
+    font-family: Inter;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    text-align: center;
+   }
+   .button1 a img {
+   
+    box-sizing: border-box;
+    left: 16.67%;
+    right: 16.67%;
+    top: 16.67%;
+    bottom: 16.67%;
+
+    /* Base / 500 - Secondary
+
+    For regular body text.
+    */
+    border: 2px solid #67798E;
+  
+   }
+   .button2 a img {
+   
+    height: 20px;
+    width: 17.985200881958008px;
+    left: 0.013671875px;
+    top: 0px;
+    border-radius: 0px;
+
+   }
   .work-cards {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
