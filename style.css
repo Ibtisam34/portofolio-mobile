@@ -126,16 +126,14 @@ header {
 
 .Recentwork1 {
   z-index: 1;
-  top: 4%;
-  width: 343px;
-  height: 718px;
+  top: 2.5vh;
+  width: 90%;
+  height: 95vh;
   opacity: 0;
   visibility: hidden;
   position: fixed;
-  overflow: scroll;
-  left: 8%;
-  bottom: 5%;
-  right: 7%;
+  /* overflow: scroll; */
+  left: 5%;
   background-color: #fff;
   justify-content: center;
   padding: 45px 10px 30px 10px;
@@ -826,11 +824,11 @@ textarea {
   }
 
   .Recentwork1 {
-    z-index: 1;
+    /* z-index: 1; */
+    z-index: 99;
     top: 4%;
     width: 1156px;
     height: 631px;
-    opacity: 0;
     visibility: hidden;
     position: fixed;
     overflow: scroll;
