@@ -1,8 +1,8 @@
 * {
   border: 0;
   margin: 0;
-  box-sizing: border-box;
-  font-family: "Crete Round", serif;
+  box-sizing: border-b
+  font-family: "Crete Round", serif;ox;
   font-family: "Inter", sans-serif;
   font-family: "Poppins", sans-serif;
   font-family: "Roboto", sans-serif;
@@ -127,13 +127,12 @@ header {
 .Recentwork1 {
   z-index: 1;
   top: 2.5vh;
-  width: 90%;
+  width: 80%;
   height: 95vh;
   opacity: 0;
   visibility: hidden;
   position: fixed;
   overflow: scroll;
-  left: 5%;
   background-color: #fff;
   justify-content: center;
   padding: 45px 10px 30px 10px;
@@ -196,6 +195,10 @@ header {
   flex-grow: 0;
 }
 
+.recent-btn {
+  margin: -20px 0;
+}
+
 .button1 {
   padding: 12px;
   gap: 12px;
@@ -203,17 +206,16 @@ header {
   height: 48px;
   background: #f55800;
   margin-left: 10px;
-  margin-top: 70px;
+  margin-top: 60px;
 }
 
 .button2 {
   padding: 12px;
   gap: 12px;
-  width: 159px;
   height: 48px;
   background: #f55800;
   margin-left: 10px;
-  margin-top: 70px;
+  margin-top: 60px;
 }
 
 .button1 a {
