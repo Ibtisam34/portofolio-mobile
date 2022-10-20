@@ -597,36 +597,40 @@ hr {
   color: #172b4d;
 }
 
-.touchForm {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 24px;
-  width: 90%;
+.form {
+  margin-left: 17%;
 }
 
-.touchForm input {
-  border-bottom: 1px solid black;
+input {
+  margin-bottom: 30px;
   padding: 10px;
   width: 100%;
 }
 
-.touchForm button {
-  padding: 12px;
-  font-family: Inter, sans-serif;
-  font-size: 17px;
-  font-weight: 700;
-  line-height: 24px;
-  letter-spacing: 0.03em;
-  text-align: center;
-  width: 136px;
-  justify-content: start;
+.error {
+  color: red;
 }
 
-textarea {
-  padding: 10px;
-  background: #fbf8f7;
-  width: 100%;
+.error-box {
+  border: 3px solid red;
+}
+
+#fname,
+#email {
+  width: 327px;
+  height: 48px;
+  border-radius: 4px;
+}
+
+#textarea {
+  width: 400px;
+  height: 114px;
+  border-radius: 4px
+}
+
+#get-button {
+  margin-top: 20px;
+  margin-left: 14px;
 }
 
 .footer {
@@ -1035,6 +1039,25 @@ textarea {
     text-align: left;
     padding-bottom: 10%;
     padding-left: 5%;
+  }
+  .form {
+    width: 50%;
+  }
+
+  #fname,
+  #email {
+    width: 400px;
+    height: 48px;
+  }
+
+  #textarea {
+    width: 400px;
+    height: 114px;
+    border-radius: 4px;
+  }
+
+  #get-button {
+    margin-left: 0;
   }
 
   .footer .socialmedia {
