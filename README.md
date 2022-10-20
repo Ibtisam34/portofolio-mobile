@@ -7,7 +7,7 @@ Its a  my first page of mobile portfolio as per the requirements of the project.
 
 ## Built With
 
-html&css
+html, css & javascript
 
 To get a local copy up and running follow these simple example steps.
 Clone the repo named "portfolio"
