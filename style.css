@@ -124,6 +124,145 @@ header {
   padding-right: 5%;
 }
 
+.Recentwork1 {
+  z-index: 1;
+  top: 2.5vh;
+  width: 80%;
+  height: 95vh;
+  opacity: 0;
+  visibility: hidden;
+  position: fixed;
+  overflow: scroll;
+  left: 10%;
+  background-color: #fff;
+  justify-content: center;
+  padding: 45px 10px 30px 10px;
+  transition: visibility 0s ease 0.5s;
+}
+
+.Recentwork1.active {
+  visibility: visible;
+  opacity: 1;
+}
+
+.css-display {
+  display: none;
+}
+
+.css-display.show {
+  display: block;
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.modal-header h1 {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172b4d;
+}
+
+.crossimg {
+  cursor: pointer;
+}
+
+.works1 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.worksimg1 {
+  width: 684px;
+  height: 448px;
+  margin-top: 10px;
+  margin-bottom: 24px;
+}
+
+.worksdescription1 p {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: #344563;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.recent-btn {
+  margin: -20px 0;
+}
+
+.button1 {
+  padding: 12px;
+  gap: 12px;
+  width: 159px;
+  height: 48px;
+  background: #f55800;
+  margin-left: 10px;
+  margin-top: 60px;
+}
+
+.button2 {
+  padding: 12px;
+  gap: 12px;
+  height: 48px;
+  background: #f55800;
+  margin-left: 10px;
+  margin-top: 60px;
+}
+
+.button1 a {
+  text-decoration: none;
+  color: #fff;
+  display: inline;
+  font-family: 'Inter', sans-serif;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+
+.button2 a {
+  text-decoration: none;
+  color: #fff;
+  font-family: Inter, sans-serif;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+
+.button1 a img {
+  box-sizing: border-box;
+  left: 16.67%;
+  right: 16.67%;
+  top: 16.67%;
+  bottom: 16.67%;
+  border: 2px solid #67798e;
+}
+
+.button2 a img {
+  height: 20px;
+  width: 17.985200881958008px;
+  left: 0.013671875px;
+  top: 0;
+  border-radius: 0;
+}
+
+.f-img {
+  width: 100%;
+}
+
 .Recentwork {
   margin-bottom: 80px;
   display: flex;
@@ -175,7 +314,29 @@ hr {
   line-height: 24px;
 }
 
+.btn1 {
+  display: flex;
+  text-decoration: none;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  gap: 10px;
+  width: 100%;
+  height: 48px;
+  background: #ff6b00;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 141%;
+  color: #fff;
+  margin-right: 60%;
+}
+
 .button {
+  justify-content: center;
+  text-decoration: none;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -190,7 +351,7 @@ hr {
   font-size: 17px;
   line-height: 141%;
   color: #fff;
-  margin-right: 84%;
+  margin-right: 60%;
 }
 
 #submitbtn {
@@ -213,6 +374,23 @@ hr {
   border: 1px solid #8993a4;
   box-sizing: border-box;
   padding: 10px 12px;
+}
+
+.languageboxes1 {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  gap: 10px;
+  justify-content: flex-start;
+  padding-left: 0;
+  padding-bottom: 5%;
+}
+
+.languageboxes1 li {
+  border: 1px solid #8993a4;
+  box-sizing: border-box;
+  padding: 10px 12px;
+  margin-top: 6px;
 }
 
 .work-cards {
@@ -537,7 +715,7 @@ textarea {
   color: #fff;
 }
 
-@media all and (min-width: 768px) {
+@media screen and (min-width: 768px) {
   .menuIcon {
     display: none;
   }
@@ -564,7 +742,7 @@ textarea {
     justify-content: space-between;
     align-items: center;
     gap: 60px;
-    margin-left: 900px;
+    margin-left: 850px;
   }
 
   .nav-link {
@@ -572,7 +750,7 @@ textarea {
   }
 
   .nav-menu ul li {
-    margin-left: 100px;
+    margin-left: 50px;
   }
 
   .nav-link:hover {
@@ -628,6 +806,10 @@ textarea {
     color: #f4f5f7;
   }
 
+  .modal-header h2 {
+    display: none;
+  }
+
   .Recentwork {
     flex-direction: row;
     flex-wrap: nowrap;
@@ -644,12 +826,70 @@ textarea {
     width: 57%;
   }
 
+  .Recentwork1 {
+    /* z-index: 1; */
+    z-index: 99;
+    top: 4%;
+    width: 1156px;
+    height: 631px;
+    visibility: hidden;
+    position: fixed;
+    overflow: scroll;
+    left: 9%;
+    background-color: #fff;
+    justify-content: center;
+    padding: 45px 10px 30px 10px;
+    transition: visibility 0s ease 0.5s;
+  }
+
+  .Recentwork1.active {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  .css-display {
+    display: none;
+  }
+
+  .css-display.show {
+    display: block;
+  }
+
   .Recentwork hr {
     width: 140%;
   }
 
+  .modal-header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .modal-header h1 {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 44px;
+    color: #172b4d;
+    width: 60%;
+  }
+
+  .f-img {
+    width: 60%;
+  }
+
+  .crossimg {
+    cursor: pointer;
+  }
+
   .works {
     display: flex;
+    gap: 10px;
+  }
+
+  .works1 {
+    display: flex;
+    flex-direction: row;
     gap: 10px;
   }
 
@@ -660,6 +900,13 @@ textarea {
 
   .worksimg {
     width: 52%;
+  }
+
+  .worksimg1 {
+    width: 684px;
+    height: 448px;
+    margin-top: 10px;
+    margin-bottom: 24px;
   }
 
   .worksdescription h1 {
@@ -678,6 +925,74 @@ textarea {
     font-size: 20px;
     line-height: 140%;
     color: #091e42;
+  }
+
+  .worksdescription1 p {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #344563;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
+  .button1 {
+    padding: 12px;
+    gap: 12px;
+    width: 159px;
+    height: 48px;
+    background: #f55800;
+    margin-left: 10px;
+    margin-top: 70px;
+  }
+
+  .button2 {
+    padding: 12px;
+    gap: 12px;
+    width: 159px;
+    height: 48px;
+    background: #f55800;
+    margin-left: 10px;
+    margin-top: 70px;
+  }
+
+  .button1 a {
+    display: inline;
+    font-family: 'Inter', sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    text-align: center;
+  }
+
+  .button2 a {
+    font-family: 'Inter', sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    text-align: center;
+  }
+
+  .button1 a img {
+    box-sizing: border-box;
+    left: 16.67%;
+    right: 16.67%;
+    top: 16.67%;
+    bottom: 16.67%;
+    border: 2px solid #67798e;
+  }
+
+  .button2 a img {
+    height: 20px;
+    width: 17.985200881958008px;
+    left: 0.013671875px;
+    top: 0;
+    border-radius: 0;
   }
 
   .work-cards {
@@ -763,7 +1078,8 @@ textarea {
   #w4:hover #w4button,
   #w5:hover #w5button,
   #w6:hover #w6button {
-    display: block;
+    display: flex;
+    justify-content: center;
   }
 
   #w1work1Discription,
