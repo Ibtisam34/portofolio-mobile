@@ -192,12 +192,7 @@ nameInput.addEventListener('input', () => {
 
 emailInput.addEventListener('input', () => {
   formData.email = emailInput.value;
-<<<<<<< HEAD
-  console.log(formData)
-  localStorage.setItem('data', JSON.stringify(formData))
-=======
   localStorage.setItem('data', JSON.stringify(formData));
->>>>>>> 2ceec61292c349dbb6b528a2cabd484e6e905862
 });
 
 textInput.addEventListener('input', () => {
